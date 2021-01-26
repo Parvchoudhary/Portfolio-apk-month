@@ -1,0 +1,357 @@
+body{
+    background: #1D1E20;
+    overflow-x:hidden ;
+}
+
+#image
+{
+    display: flexbox;
+}
+header
+{
+    margin-top: 0vw;
+    margin-right: 0vw;
+text-align: end;
+font-size: 2rem;
+font-family: 'Montserrat', sans-serif;
+
+word-spacing: 60px;
+}
+header a 
+{
+    color:#13F7D2;
+    text-decoration: none;
+}
+#geek1
+{
+    position: absolute;
+    width: 55px;
+    height: 50px;
+left: 4.5vw;
+right: 88.25vw;
+top: 3.28vh;
+bottom: 86.63vh;
+}
+#geek2
+{
+    position: absolute;
+    height: 90px;
+    width: 100px;
+left: 2.93vw;
+right: 86.43vw;
+top: 1vh;
+bottom: 83.83vh;
+}
+#pt{overflow: hidden;
+border-radius: 30%;}
+#potr
+{
+    position: absolute;
+    height: 380px;
+    width: 380px;
+    top:23vh;
+    left:15vw;
+   border-radius: 60%;
+    
+}
+#cr1
+{
+    position: relative;
+    top:20vh;
+    left:34vw;
+}
+#cr2
+{
+    position: relative;
+    top:79vh;
+    left:24vw;
+}
+#circle
+{
+    position: relative;
+    height: 180px;
+    width: 180px;
+    top:50vh;
+    left: 12vw;
+    border-radius: 90%;
+    background-color: rgba(19, 247, 210, 0.55);
+
+}
+#content
+{
+    position: absolute;
+    width: 40vw;
+    top: 16vh;
+    left: 50vw;
+    color: white;
+    text-align: justify;
+    font-family: 'Montserrat', sans-serif;
+}
+h1
+{
+    color:#13F7D2;
+    font-size: 4rem;
+}
+#p1
+{
+    font-weight: bolder;
+    font-size: 2rem;
+}
+#p2
+{
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+}
+
+footer{
+    position:relative;
+    margin-top: 50vh;
+    margin-left: 32vw;
+}
+#foot
+{
+    position: relative;
+    color: white;
+    margin-left: 3vw;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+i
+{
+    font-size: 1.8rem;
+    margin-left: 2vw;
+   padding: 1vw;
+    color: #13F7D2;
+    border: solid 3px  #13F7D2 ;
+    border-radius: 50%;
+}
+i:hover{
+    font-size: 2.5rem;
+    box-shadow: 0px 5px 25px #13F7D2 ;
+}
+@media only screen and (max-width: 600px)
+{
+    body{overflow: scroll;}
+    #tg{font-size: 2rem;
+        border-radius: 20%;
+        border: none;}
+    #geek1
+    {
+        left: 9.5vw;
+        top: -0.3vh;
+        height: 2.8vh;
+        width: 7vw;
+    }
+    #geek2
+    {
+        top: -1.4vh;
+        left: 7vw;
+        height: 5.5vh;
+        width: 12vw;
+    }
+    #div
+    {
+        width: 400px;     
+        left: 20vw;
+    }
+    #image
+    {
+        position: absolute;
+        top: 2vh;
+        left: -4vw;
+        width: 350px;
+        height: 500px;
+    }
+    #potr
+    {
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 300px;
+        width: 300px;
+        border-radius: 50%;
+    }
+    #circle
+    {
+        position: absolute;
+        margin-top: 0px;
+        margin-left: 0px;
+        height: 120px;
+        width: 120px;
+    }
+    #cr1
+    { position: absolute;
+        margin-top: 10px;
+        margin-left: 175px;
+        width: 30px;
+        height: 30px;
+    }
+    #cr2
+    {
+        position: absolute;
+        margin-top: -120px;
+        margin-left: 120px;
+        width: 30px;
+        height: 30px;
+    }
+    #content
+    {
+        width: 80vw;
+        top: 580px;
+        left: 10vw ;
+    }
+    h1
+{
+    font-size: 2rem;
+}
+#p1
+{
+    font-size: 1.3rem;
+}
+#p2
+{
+    line-height: 1.5rem;
+}
+footer
+{
+    position: absolute;
+    left: -30px;
+    width: 100vw;
+    margin-top: 1090px;
+
+}
+#foot{
+    margin-left: -5.5vw;
+    font-size: 0.8rem;}
+i{
+
+font-size: 1.4rem;
+}
+}
+@media only screen and (min-height: 600px) and (max-height: 700px) and (max-width:600px){
+   #circle{margin-top: 20px;}
+    #cr1{
+        margin-top: 20px;
+        margin-left: 190px;
+    }
+    #cr2{
+        margin-top: -40px;
+    }
+}
+@media only screen and (min-height: 700px) and (max-height: 750px) and (max-width:600px){
+   #circle{margin-top: 10px;}
+    #cr1{
+        margin-top: 20px;
+        margin-left: 170px;
+    }
+    #cr2{
+        margin-top: -80px;
+    }
+}
+@media only screen and (max-height: 600px) and (max-width:600px){
+   
+    #image{left:0vw}
+    #cr1{
+        margin-top: 150px;
+        margin-left: 190px;
+    }
+    #cr2{
+        margin-top: 120px;
+    }
+}
+@media only screen and (min-width: 601px) and (max-width: 1000px)
+{
+    #tg{font-size: 2rem;
+        border-radius: 20%;
+        border: none;}
+    #geek1
+    {
+        left: -5.5vw;
+        top: 4.3vh;
+        height: 8vh;
+        width: 10vw;
+    }
+    #geek2
+    {
+        top: 2vh;
+        left: -9vw;
+        height: 14vh;
+        width: 17vw;
+    }
+    #div
+    {
+        width: 400px;     
+        left: 20vw;
+    }
+    #image
+    {
+        position: absolute;
+        top: 2vh;
+        left: 10vw;
+    }
+    #potr
+    {
+        position: absolute;
+        margin-left: 10px;
+        margin-top: 10px;
+        height: 450px;
+        width: 450px;
+    }
+    #circle
+    {
+        position: absolute;
+        margin-top: 20px;
+        margin-left: -30px;
+        height: 27vw;
+        width: 27vw;
+    }
+    #cr1
+    { position: absolute;
+        margin-top: 5px;
+        margin-left: 240px;
+        width: 7vw;
+        height: 7vw;
+    }
+    #cr2
+    {
+        position: absolute;
+        margin-top: -70px;
+        margin-left: 140px;
+        width: 7vw;
+        height: 7vw;
+    }
+    #content
+    {
+        width: 90vw;
+        top: 83vh;
+        left: 5vw ;
+    }
+    h1
+{
+    font-size: 4rem;
+}
+#p1
+{
+    font-size: 2rem;
+}
+#p2
+{
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+}
+footer
+{
+    position: absolute;
+    left: 0vw;
+    width: 100vw;
+    margin-top: 128vh;
+
+}
+#foot{
+    margin-left: 1.5vw;
+    font-size: 1rem;}
+i{
+
+font-size: 2.5rem;
+}
+}
